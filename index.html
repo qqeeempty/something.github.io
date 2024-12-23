@@ -1,14 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфолио</title>
+    <title>Городское жилищное управление г.Фрязино</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <a href="MaxBerry/index1.html">Сайт 1</a>
-    <a href="index2.html">Сайт 2</a>
-    <a href="index3.html">Сайт 3</a>
-    <a href="index4.html">Сайт 4</a>
+    <header class="header"> 
+            <nav class="nav">
+                <div class="title">
+                <a>
+                    <img src="media/title.png" alt="logo">
+                </a>
+            </div>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#">Главная</a></li>
+                <li class="menu_item">
+                    <a href="#">Новости</a></li>
+                <li class="menu_item">
+                    <a href="#">Контакт</a></li>
+                <li class="menu_item">
+                    <a href="#">Наш адрес</a></li>
+                <li class="menu_item">
+                    <a href="#">Наши дома</a></li>
+            </ul>
+            </nav>
+        <img src="media/cozy.png" alt="text" class="cozy">
+    </header>
+    <section class="first_section">
+        <div class="experience_all">
+            <div class="experience_text_left">
+        <h2>Мы работаем с 1 апреля 2010 года!</h2>
+        <p>Уже для 35 многоквартирных домов города 
+            Фрязино мы обеспечиваем управление, 
+            ремонт, содержание мест общего 
+            пользования, придомовой территории и 
+            занимаемся предоставлением коммунальных 
+            услуг жителям этих домов.</p>
+            </div>
+        <img src="media/Fryazino.png" alt="Приветственный знак города Фрязино">
+    </div>
+    </section>
+    <section class="second_section">
+            <h2>Что можно сказать о наших услугах?</h2>
+        <div class="benefits">
+            <div class="elements">
+                <img src="media/electricity.png" alt="icon" class="photo">
+                <h3>Электричество</h3>
+                <p class="about">надёжное управление 
+                    и регулярная поддержка питания.</p>
+            </div>
+            <div class="elements">
+                <img src="media/water.png" alt="icon" class="photo">
+                <h3>Вода</h3>
+                <p class="about">Обеспечение чистого 
+                    и бесперебойного водоснабжения.</p>
+            </div>
+            <div class="elements">
+                <img src="media/gas.png" alt="icon" class="photo">
+                <h3>Газ</h3>
+                <p class="about">Безопасное и 
+                    эффективное газоснабжение домов.</p>
+            </div>
+        </div>
+    </section>
+    <section class="third-section">
+        <h2>Нужна наша помощь? напишите!</h2>
+        <div class="form">
+            <div class="form_contact">
+			<label>Ваши ФИ или наименование 
+                организации <span>*</span></label>
+                <input type="text" placeholder=" ">
+			<label>Ваши контакты(e-mail или номер телефона) <span>*</span>
+    </label><input type="text" placeholder="+7(999)555-66-77 или user@smth.com" required id="password">
+            <div class="form_text">
+                <label>Текст запроса <span>*</span></label>
+                    <textarea class="problem" name="comment" placeholder=" " rows="6"></textarea>
+            </div>
+        </div>
+        <div class="input">
+            <p class="important"><span>*</span> - обязательные для заполнения пола</p>
+            <input type="submit" value="Отправить">
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-elements">
+            <p class="bottom">© 2014 - 2024</p>
+            <div class="icons">
+            <a href="#">
+                <img src="media/whatsapp.png" alt="icon" class="icon"></a>
+                <a href="#">
+                    <img src="media/telegram.png" alt="icon" class="icon"></a>
+                    <a href="#">
+                        <img src="media/vk.png" alt="icon" class="icon"></a>
+        </div>
+        <a href="mailto:567@fryazino.ru" class="bottom">567@fryazino.ru</a>
+        </div>
+    </footer>
 </body>
 </html>

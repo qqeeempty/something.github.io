@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(243, 237, 234, 1);
+    color: #333;
+}
+
+h2{
+    font-size: 36px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+p{
+    font-size: 24px;
+}
+
+span{
+    color: rgb(200, 12, 12);
+}
+
+.important{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form label{
+    font-weight: 600;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background: url('../media/FryazinoCity.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    height: 821px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 169px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+    border-radius: 0px 0px 30px 30px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .menu_item {
+    display: inline-block;
+    padding: 35px;
+}
+
+.cozy{
+    margin-top: 170px;
+    align-self: flex-start;
+    margin-left: 140px;
+}
+
+.menu{
+    display: flex;
+    margin-top: 0;
+    width: 754px;
+    height: 35px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(58, 41, 41, 0.95);
+}
+
+header nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.experience_all{
+    display: flex;
+    justify-content: center;
+    width: 1152px;
+    gap: 33px;
+}
+
+.first_section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.second_section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    height: 660px;
+    background-color: rgba(252, 249, 247, 1);
+}
+
+.benefits{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1152px;
+}
+
+.elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about{
+    width: 310px;
+}
+
+.form{
+    display: flex;
+    gap: 50px;
+}
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+
+.form_contact, .form_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+input{
+	background: #fff;
+	border: 1px solid rgba(94, 75, 75, 1);
+    font-size: 20px;
+    padding: 3px 0px 0px 3px;
+	border-radius: 15px;
+    Width: 594px;
+    Height: 74px;
+}
+
+.problem{
+    Width: 745px;
+    Height: 323px;
+    vertical-align: top;
+    box-sizing: border-box;
+    background: #fff;
+	border: 1px solid rgba(94, 75, 75, 1);
+    font-size: 20px;
+    padding: 5px;
+	border-radius: 15px;
+}
+
+input[type="submit"]{
+   background-color: rgba(58, 41, 41, 1);
+   width: 324px;
+   height: 74px;
+   color: #fff;
+}
+
+footer{
+    height: 140px;
+    background-color: rgba(58, 41, 41, 1);
+}
+
+.footer-elements{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+}
+
+.icon{
+    width: 44px;
+    height: 44px;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.bottom{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    align-self: center;
+}
